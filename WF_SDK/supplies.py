@@ -1,4 +1,4 @@
-""" POWER SUPPLIES CONTROL FUNCTIONS: switch, switch_fixed, switch_variable, switch_digital, close """
+""" POWER SUPPLIES CONTROL FUNCTIONS: switch, switch_fixed, switch_variable, switch_digital, switch_6V, switch_25V, close """
 
 import ctypes                     # import the C compatible data types
 from sys import platform, path    # this is needed to check the OS type and get the PATH
