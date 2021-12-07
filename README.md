@@ -1,11 +1,11 @@
-# Description
+## Description
 Demo package for the WaveForms SDK Getting Started guide and multiple test scripts for different instruments.
 
 Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/test-and-measurement/guides/waveforms-sdk-getting-started) for more details.
 
 ***
 
-# Available tests:
+## Available tests:
 * empty test template
 * analog signal generation and recording test
 * digital signal generation and recording test
@@ -16,24 +16,24 @@ Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/t
 
 ***
 
-# Available instruments and functions:
-## Device
+## Available instruments and functions:
+### Device
 * open
 * check_error
 * close
 
-## Oscilloscope
+### Oscilloscope
 * open
 * measure
 * trigger
 * record
 * close
 
-## Waveform Generator
+### Waveform Generator
 * generate
 * close
 
-## Power Supplies
+### Power Supplies
 * switch
 * switch_fixed (for Analog Discovery)
 * switch_variable (for Analog Discovery 2 and Studio)
@@ -42,22 +42,22 @@ Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/t
 * switch_25V (for Analog Discovery Pro 5250)
 * close
 
-## Digital Multimeter
+### Digital Multimeter
 * open
 * measure - **UNTESTED**
 * close
 
-## Logic Analyzer
+### Logic Analyzer
 * open
 * trigger
 * record
 * close
 
-## Pattern Generator
+### Pattern Generator
 * generate
 * close
 
-## Static I/O
+### Static I/O
 * set_mode
 * get_state
 * set_state
@@ -65,13 +65,14 @@ Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/t
 * set_pull - **UNTESTED**
 * close
 
-## Protocol: UART
+### Protocol
+#### UART
 * open
 * read
 * write
 * close
 
-## Protocol: SPI
+#### SPI
 * open
 * read
 * write
@@ -79,7 +80,7 @@ Check: [Getting Started with the WaveForms SDK](https://digilent.com/reference/t
 * spy - **UNTESTED**
 * close
 
-## Protocol: I2C
+#### I2C
 * open
 * read
 * write
