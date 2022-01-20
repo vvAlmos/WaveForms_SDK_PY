@@ -2,14 +2,14 @@
     This module realizes communication with Digilent Test & Measurement devices
 """
 
-import device
-import scope
-import wavegen
-import supplies
-import dmm
-import logic
-import pattern
-import static
-import protocol.uart
-import protocol.spi
-import protocol.i2c
+from . import device
+from . import scope
+from . import wavegen
+from . import supplies
+from . import dmm
+from . import logic
+from . import pattern
+from . import static
+from . import protocol
+#from . import spi
+#from . import i2c
