@@ -1,3 +1,5 @@
 **/__pycache__
 *.pyc
 **/images
+**/build
+**/WF_SDK.egg-info
