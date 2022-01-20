@@ -10,6 +10,4 @@ from . import dmm
 from . import logic
 from . import pattern
 from . import static
-from .protocol import i2c
-from .protocol import spi
-from .protocol import uart
+from . import protocol
