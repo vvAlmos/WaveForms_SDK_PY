@@ -1,3 +1,1 @@
-"""
-    This module controls the protocol instrument
-"""
+""" This module controls the protocol instrument """

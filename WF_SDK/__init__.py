@@ -1,6 +1,4 @@
-"""
-    This module realizes communication with Digilent Test & Measurement devices
-"""
+""" This module realizes communication with Digilent Test & Measurement devices """
 
 from WF_SDK import device
 from WF_SDK import scope
