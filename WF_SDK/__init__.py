@@ -8,6 +8,4 @@ from WF_SDK import dmm
 from WF_SDK import logic
 from WF_SDK import pattern
 from WF_SDK import static
-from WF_SDK.protocol import i2c
-from WF_SDK.protocol import spi
-from WF_SDK.protocol import uart
+from WF_SDK import protocol
