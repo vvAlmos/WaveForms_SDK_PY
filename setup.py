@@ -13,4 +13,5 @@ setup(
    author_email = "almos.veres-vitalyos@digilent.ro",
    url = "https://digilent.com/reference/test-and-measurement/guides/waveforms-sdk-getting-started",
    packages = ["WF_SDK"],   # same as name
+   install_requires = ["wheel"],    # external packages as dependencies
 )
