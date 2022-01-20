@@ -12,5 +12,5 @@ setup(
    author = "Almos Veres-Vitalyos",
    author_email = "almos.veres-vitalyos@digilent.ro",
    url = "https://digilent.com/reference/test-and-measurement/guides/waveforms-sdk-getting-started",
-   packages = ["WF_SDK", "WF_SDK.protocol"],   # same as name
+   packages = ["WF_SDK", "WF_SDK.protocol"],
 )
