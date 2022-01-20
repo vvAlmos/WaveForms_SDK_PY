@@ -1,4 +1,6 @@
-""" This module realizes communication with Digilent Test & Measurement devices """
+"""
+This module realizes communication with Digilent Test & Measurement devices
+"""
 
 from WF_SDK import device
 from WF_SDK import scope
@@ -8,4 +10,4 @@ from WF_SDK import dmm
 from WF_SDK import logic
 from WF_SDK import pattern
 from WF_SDK import static
-from WF_SDK.protocol import i2c
+from WF_SDK import protocol
