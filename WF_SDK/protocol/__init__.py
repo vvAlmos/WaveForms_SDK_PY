@@ -2,6 +2,6 @@
     This module controls the protocol instrument
 """
 
-#import i2c
-#import spi
-#import uart
+from WF_SDK.protocol import i2c
+from WF_SDK.protocol import spi
+from WF_SDK.protocol import uart
